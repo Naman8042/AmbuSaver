@@ -18,7 +18,7 @@ exports.sendMail = async(req, res) => {
     const mailOptions = {
         from: 'ambulancebooker@gmail.com',
         to: email,
-        subject: 'OTP',
+        subject: 'Ambusaver OTP Verification',
         text: `Your OTP is : ${randomNumber}`
     };
 
